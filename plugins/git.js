@@ -11,23 +11,23 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     
     
    
-  r_text[0] = "https://i.imgur.com/w89FHm7.jpeg";
+  r_text[0] = "https://i.imgur.com/y02NWZt.jpg";
     
     
     var i = Math.floor(1*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*creater Amal*
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*Creator Bemin*
 *To check update .update   To update Bot .update now*
 
 *Bot making video : https://youtu.be/fd0KPblop-k*
 
 *Yt_PASSWORD: _________(password on this video watch it full)*
 
-*githublink : https://github.com/cyberchekuthan/Amalser_v2*
+*githublink : https://github.com/blooper-ser/blooperv2*
 
-*audio commads : https://github.com/cyberchekuthan/Amalser_v2/tree/master/uploads*
+*audio commads : https://github.com/blooper-ser/blooperv2/tree/master/uploads*
 `}) 
 
 }));
