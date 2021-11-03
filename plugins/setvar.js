@@ -10,7 +10,7 @@ Asena.addCommand({pattern: 'setvar', fromMe: false, desc: Lang.WP}, (async (mess
     var r_text = new Array ();
     
     
-    r_text[0] = "https://www.linkpicture.com/q/IMG-20210629-WA0181.jpg";
+    r_text[0] = "https://i.imgur.com/y02NWZt.jpg";
     
     
     var i = Math.floor(1*Math.random())
@@ -18,7 +18,7 @@ Asena.addCommand({pattern: 'setvar', fromMe: false, desc: Lang.WP}, (async (mess
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
     await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━💘SETVAR💘━━⛦
-𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 Amalser 𝐛𝐨𝐭.
+𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 BEMIN SER'S 𝐛𝐨𝐭.
   
 *ẉa.me/➳Setvar*
 ■□■□■□■□■□■□■□■□■□■□
@@ -84,23 +84,25 @@ All setvars are
  To change bad word remove list
  .setvar THERI_LIST:badword,badword
 
- To change AMALSER bot name
+ To change BLOOPER bot name
  .setvar BOT_NAME:your bot name
 
  To get a song when your number is mentioned
  .setvar TAG_REPPLY:your jid 
 
-     *happy using Amalser bot ❣️*
+     *Happy Using BEMIN SER'S Bot 🖤*
 
-*Editing And Devaloper : Amal -Amalser*
+*Editing And Devaloper : BEMIN - BLOOPER*
 
-*Erorr Fixing : Farhan -Julie Mwol 💌*
+*Erorr Fixing : BEMIN - BLOOPER 💌*
 
-*Supporting : Afnan -Pinky 💌*
+*Supporting : AMEEN - DILMANO 💌*
 
-*User Support : Adhithhari ✨️*
+*User Support : MY ALL FRNDS 🙈 ✨️*
 
-      ═════💢💢═════
+*SPECIAL THANKS FOR AMALSER , AFNAN AND SOURAV 😘*
+
+      ═════k bie═════
 `}) 
 
 }));
