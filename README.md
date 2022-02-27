@@ -4,7 +4,7 @@
 </p>
 <div align="center">
   <p align="center">
-<img src=https://i.imgur.com/y02NWZt.jpg>
+<img src=IMG-20220223-WA0000.jpg>
 </p>
   <p align="center">
 <a href="https://github.com/cyberchekuthan"><img title="Author" src="https://img.shields.io/badge/Author-Bemin-b/blooperv2?color=blue&style=for-the-badge&logo=whatsapp"></a>
